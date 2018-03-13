@@ -1,0 +1,348 @@
+Computing error between output/holding_still.txt and output/holding_still_2.txt on Fri Jan 12 12:17:19 EST 2018
+21.038813722689046
+
+Computing error between output/raised.txt and output/raised_2.txt on Fri Jan 12 12:18:48 EST 2018
+4040.319966673173
+
+Computing error between output/angle_raised_avg.txt and output/angle_raised2_avg.txt on Fri Jan 12 15:01:25 EST 2018
+0.005923181097871666
+
+Computing error between output/angle_holding_still_avg.txt and output/angle_holding_still2_avg.txt on Fri Jan 12 15:03:26 EST 2018
+9.593705690469706E-4
+
+Computing error between output/test_avg.txt and output/test2_avg.txt on Fri Jan 12 15:38:02 EST 2018
+0.0033709752981066436
+
+Computing error between output/fist_avg.txt and output/open_avg.txt on Fri Jan 12 15:46:11 EST 2018
+0.7341228174496783
+
+Computing error between output/bighand_avg.txt and output/mediumhand_avg.txt on Fri Jan 12 15:50:14 EST 2018
+0.007442959147642017
+
+Computing error between output/bighand_avg.txt and output/smallhand_avg.txt on Fri Jan 12 15:50:21 EST 2018
+0.029176034521258977
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/1_trial.txt on Wed Jan 17 09:31:08 EST 2018
+33.777561671294094
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/goodAttempt_trans.txt on Wed Jan 17 09:54:30 EST 2018
+25.0228685046047
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/badAttempt_trans.txt on Wed Jan 17 09:54:40 EST 2018
+54.88601624453305
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/goodAttempt2_trans.txt on Wed Jan 17 09:55:56 EST 2018
+2.012491878371697
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/goodAttempt3_trans.txt on Wed Jan 17 09:56:02 EST 2018
+2.396576589063881
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/badAttempt2_trans.txt on Wed Jan 17 09:56:56 EST 2018
+75.77519259732362
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/goodAttempt4_trans.txt on Wed Jan 17 10:21:36 EST 2018
+30.309112337588083
+
+Computing error between alphabet_database/A/correctVector.txt and alphabet_database/A/badAttempt3_trans.txt on Wed Jan 17 10:23:41 EST 2018
+12.967409082749816
+
+Computing error between alphabet_database/A/correct_trans.txt and alphabet_database/A/goodAttempt1_trans.txt on Wed Jan 17 10:50:00 EST 2018
+39.980577875807086
+
+Computing error between alphabet_database/A/correct_trans.txt and alphabet_database/A/badAttempt1_trans.txt on Wed Jan 17 10:51:05 EST 2018
+72.43078931115836
+
+Computing error between alphabet_database/A/correct_trans.txt and alphabet_database/A/midAttempt1_trans.txt on Wed Jan 17 10:52:18 EST 2018
+77.83818261072359
+
+Computing error between alphabet_database/A/correct_trans.txt and alphabet_database/A/midAttempt2_trans.txt on Wed Jan 17 10:53:18 EST 2018
+29.55472134111757
+
+Computing error between alphabet_database/A/correct.txt and alphabet_database/A/goodAttempt1.txt on Wed Jan 17 11:11:30 EST 2018
+0.3901623169393498
+
+Computing error between alphabet_database/A/correct.txt and alphabet_database/A/midAttempt1.txt on Wed Jan 17 11:11:44 EST 2018
+0.5776390749213789
+
+Computing error between alphabet_database/A/correct.txt and alphabet_database/A/midAttempt2.txt on Wed Jan 17 11:11:48 EST 2018
+0.5797964446002238
+
+Computing error between alphabet_database/A/correct.txt and alphabet_database/A/badAttempt1.txt on Wed Jan 17 11:11:56 EST 2018
+0.5026119732308879
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/goodAttempt1_trans.txt on Wed Jan 17 13:19:41 EST 2018
+43.97863566333323
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/midAttempt1_trans.txt on Wed Jan 17 13:19:52 EST 2018
+85.62200087179593
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/midAttempt2_trans.txt on Wed Jan 17 13:19:56 EST 2018
+32.510193474351325
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/badAttempt1_trans.txt on Wed Jan 17 13:20:04 EST 2018
+79.67386824226581
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t1_trans.txt on Wed Jan 17 13:34:32 EST 2018
+33.96267854131444
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t2_trans.txt on Wed Jan 17 13:34:33 EST 2018
+93.50330800784305
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t3_trans.txt on Wed Jan 17 13:34:34 EST 2018
+101.62861203878003
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t4_trans.txt on Wed Jan 17 13:34:35 EST 2018
+47.65222277558669
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t5_trans.txt on Wed Jan 17 13:34:36 EST 2018
+9.49320594297639
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t6_trans.txt on Wed Jan 17 13:34:37 EST 2018
+92.19661881672258
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t7_trans.txt on Wed Jan 17 13:34:37 EST 2018
+16.800106726814487
+
+Computing error between alphabet_database/PCA20/correct_trans.txt and alphabet_database/PCA20/t8_trans.txt on Wed Jan 17 13:34:38 EST 2018
+13.197834372193963
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t1_trans.txt on Wed Jan 17 13:34:48 EST 2018
+30.87516231029091
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t2_trans.txt on Wed Jan 17 13:34:49 EST 2018
+85.00300727985734
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t3_trans.txt on Wed Jan 17 13:34:50 EST 2018
+92.38964730798244
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t4_trans.txt on Wed Jan 17 13:34:51 EST 2018
+43.32020252514716
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t5_trans.txt on Wed Jan 17 13:34:52 EST 2018
+8.63018722094197
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t6_trans.txt on Wed Jan 17 13:34:52 EST 2018
+83.81510801621916
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t7_trans.txt on Wed Jan 17 13:34:53 EST 2018
+15.272824302471617
+
+Computing error between alphabet_database/PCA22/correct_trans.txt and alphabet_database/PCA22/t8_trans.txt on Wed Jan 17 13:34:54 EST 2018
+11.998031247482185
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t1.txt on Wed Jan 17 13:36:44 EST 2018
+0.4111093624636311
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t2.txt on Wed Jan 17 13:36:44 EST 2018
+0.5759115690142306
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t3.txt on Wed Jan 17 13:36:44 EST 2018
+0.6221856688021855
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t4.txt on Wed Jan 17 13:36:44 EST 2018
+0.5493738872679932
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t5.txt on Wed Jan 17 13:36:45 EST 2018
+0.21412936501073637
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t6.txt on Wed Jan 17 13:36:45 EST 2018
+0.6707710768047513
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t7.txt on Wed Jan 17 13:36:45 EST 2018
+0.620871752884256
+
+Computing error between alphabet_database/avg/correct.txt and alphabet_database/avg/t8.txt on Wed Jan 17 13:36:45 EST 2018
+0.34394199681811893
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t1_trans.txt on Wed Jan 17 14:00:04 EST 2018
+56.60446287772293
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t2_trans.txt on Wed Jan 17 14:00:05 EST 2018
+155.83884408115662
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t3_trans.txt on Wed Jan 17 14:00:05 EST 2018
+169.38101629385756
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t4_trans.txt on Wed Jan 17 14:00:06 EST 2018
+79.41812906730371
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t5_trans.txt on Wed Jan 17 14:00:07 EST 2018
+15.8214259232098
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t6_trans.txt on Wed Jan 17 14:00:08 EST 2018
+153.66096063087576
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t7_trans.txt on Wed Jan 17 14:00:09 EST 2018
+27.998795047312445
+
+Computing error between alphabet_database/PCA12/correct_trans.txt and alphabet_database/PCA12/t8_trans.txt on Wed Jan 17 14:00:10 EST 2018
+21.996382082565464
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t1_trans.txt on Wed Jan 17 14:21:41 EST 2018
+3.5076182819559723
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t2_trans.txt on Wed Jan 17 14:21:42 EST 2018
+5.949752153571673
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t3_trans.txt on Wed Jan 17 14:21:43 EST 2018
+5.688055305076699
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t4_trans.txt on Wed Jan 17 14:21:44 EST 2018
+2.8315110125903753
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t5_trans.txt on Wed Jan 17 14:21:45 EST 2018
+0.9360267255585777
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t6_trans.txt on Wed Jan 17 14:21:46 EST 2018
+2.8037865349112843
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t7_trans.txt on Wed Jan 17 14:21:47 EST 2018
+1.677713365292657
+
+Computing error between alphabet_database/newPCA//correct_trans.txt and alphabet_database/newPCA//t8_trans.txt on Wed Jan 17 14:21:47 EST 2018
+0.8217017486544126
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t1_trans.txt on Wed Jan 17 14:23:01 EST 2018
+3.5076182819559723
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t2_trans.txt on Wed Jan 17 14:23:02 EST 2018
+5.949752153571673
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t3_trans.txt on Wed Jan 17 14:23:03 EST 2018
+5.688055305076699
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t4_trans.txt on Wed Jan 17 14:23:04 EST 2018
+2.8315110125903753
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t5_trans.txt on Wed Jan 17 14:23:04 EST 2018
+0.9360267255585777
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t6_trans.txt on Wed Jan 17 14:23:05 EST 2018
+2.8037865349112843
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t7_trans.txt on Wed Jan 17 14:23:06 EST 2018
+1.677713365292657
+
+Computing error between alphabet_database/newPCA/correct_trans.txt and alphabet_database/newPCA/t8_trans.txt on Wed Jan 17 14:23:07 EST 2018
+0.8217017486544126
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t1_trans.txt on Wed Jan 17 15:46:25 EST 2018
+67.92522176794563
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t2_trans.txt on Wed Jan 17 15:46:26 EST 2018
+187.0065720053202
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t3_trans.txt on Wed Jan 17 15:46:27 EST 2018
+203.25712475327657
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t4_trans.txt on Wed Jan 17 15:46:28 EST 2018
+95.29145639024088
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t5_trans.txt on Wed Jan 17 15:46:29 EST 2018
+18.98264062194286
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t6_trans.txt on Wed Jan 17 15:46:29 EST 2018
+184.39254472889561
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t7_trans.txt on Wed Jan 17 15:46:30 EST 2018
+33.57595436252808
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t8_trans.txt on Wed Jan 17 15:46:31 EST 2018
+26.394637716380828
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t1_trans.txt on Wed Jan 17 15:48:21 EST 2018
+45.28357128228592
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t2_trans.txt on Wed Jan 17 15:48:21 EST 2018
+124.67107732600616
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t3_trans.txt on Wed Jan 17 15:48:22 EST 2018
+135.50481597571365
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t4_trans.txt on Wed Jan 17 15:48:23 EST 2018
+63.53629394247039
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t5_trans.txt on Wed Jan 17 15:48:24 EST 2018
+12.657606572849215
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t6_trans.txt on Wed Jan 17 15:48:25 EST 2018
+122.92881790979506
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t7_trans.txt on Wed Jan 17 15:48:26 EST 2018
+22.400072118812723
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t8_trans.txt on Wed Jan 17 15:48:27 EST 2018
+17.597112298860534
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t1_trans.txt on Wed Jan 17 15:49:36 EST 2018
+30.87516231029091
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t2_trans.txt on Wed Jan 17 15:49:37 EST 2018
+85.00300727985734
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t3_trans.txt on Wed Jan 17 15:49:38 EST 2018
+92.38964730798244
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t4_trans.txt on Wed Jan 17 15:49:39 EST 2018
+43.32020252514716
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t5_trans.txt on Wed Jan 17 15:49:40 EST 2018
+8.63018722094197
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t6_trans.txt on Wed Jan 17 15:49:41 EST 2018
+83.81510801621916
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t7_trans.txt on Wed Jan 17 15:49:42 EST 2018
+15.272824302471617
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/t8_trans.txt on Wed Jan 17 15:49:43 EST 2018
+11.998031247482185
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s1_trans.txt on Wed Jan 17 15:54:46 EST 2018
+81.88600823165326
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s2_trans.txt on Wed Jan 17 15:54:47 EST 2018
+25.74998835852251
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s3_trans.txt on Wed Jan 17 15:54:48 EST 2018
+86.56273695198955
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s4_trans.txt on Wed Jan 17 15:54:49 EST 2018
+15.803325091462181
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s5_trans.txt on Wed Jan 17 15:54:50 EST 2018
+47.72468986356905
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s6_trans.txt on Wed Jan 17 15:54:51 EST 2018
+14.339292622721665
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s7_trans.txt on Wed Jan 17 15:54:52 EST 2018
+65.2308563104884
+
+Computing error between alphabet_database/newPCA2/correct_trans.txt and alphabet_database/newPCA2/s8_trans.txt on Wed Jan 17 15:54:53 EST 2018
+48.09013288240512
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s1.txt on Wed Jan 17 15:58:52 EST 2018
+0.5465203959763235
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s2.txt on Wed Jan 17 15:58:52 EST 2018
+0.33172532910704383
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s3.txt on Wed Jan 17 15:58:52 EST 2018
+0.5707364144867524
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s4.txt on Wed Jan 17 15:58:52 EST 2018
+0.28286624199413235
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s5.txt on Wed Jan 17 15:58:52 EST 2018
+0.578483223414901
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s6.txt on Wed Jan 17 15:58:52 EST 2018
+0.1572229062496816
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s7.txt on Wed Jan 17 15:58:53 EST 2018
+0.5130250005411526
+
+Computing error between alphabet_database/newPCA2/correct.txt and alphabet_database/newPCA2/s8.txt on Wed Jan 17 15:58:53 EST 2018
+0.5935440992430656
+

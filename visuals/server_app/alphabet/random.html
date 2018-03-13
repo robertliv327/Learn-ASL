@@ -1,0 +1,91 @@
+<!-- 
+HTML for Practicing a random letter
+
+Robert Livaudais, January 2018
+-->
+
+<html>
+  <head>
+    <title>Random Letter</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        background: #A9DFBF;
+      }
+      .inline{
+        display: inline;
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+      .generated-letter{
+        font-weight: bold;
+      }
+      .hidden{
+        display: none;
+      }
+      #header{
+        padding-top: 20px;
+        padding-bottom: 30px;
+      }
+      #header h1{
+      	display: inline;
+      }
+      #left-col{
+      	padding-right: 50px;
+      }
+      #blue{
+      	color: #5555FF;
+      }
+      #scores p{
+        display: inline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container text-center" id="header">
+      <h1>Your Random Letter is: <h1 class="generated-letter" id="blue"></h1></h1>
+      <p></br>This challenge is designed to test your ability to recall a hand sign from memory rather than your ability to replicate a sign from an image.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="left-col">
+        	<p class="inline">Place one hand over the Leap Motion Device to see it displayed on the screen, then attempt to make the correct sign and press '<b>SPACEBAR</b>' on the keyboard to test your sign for correctness.</p>
+        	<p></br>Want to skip this letter? Press '<b>ENTER</b>' to get a new one.</p>
+        </div>
+        <div id="scores" class="col-md-4 text-center">
+          <p>Total Correct: </p>
+          <p id="count1"></p>
+          <p></br>Without-Skips Streak: </p>
+          <p id="count2"></p>
+          <p></br>First-Try Streak: </p>
+          <p id="count3"></p>
+        </div>
+        <div class="col-md-4">
+		  	  <p class="text-center">Your feedback will appear here.<br/></p>
+        	<div class="text random-output"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src = "https://js.leapmotion.com/leap-0.6.2.min.js" ></script>
+    <script src = "../lib/three.min.js"></script>
+    <script src = "../lib/stats.min.js"></script>
+    <script src = "../lib/ConnectedHand.js"></script>
+    <script src = "../js/common.js"></script>
+    <script src="../js/random.js"></script>
+  </body>
+</html>

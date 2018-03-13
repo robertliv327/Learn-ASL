@@ -1,0 +1,127 @@
+<!-- 
+HTML for main page
+
+Robert Livaudais, January 2018
+-->
+
+<html>
+  <head>
+    <title>Learn Sign Language</title>
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <style>
+      body {
+        margin: 0;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        background: #f6f6f6;
+      }
+      a:visited, a:link, a:active{
+        color: #000;
+        text-decoration: none;
+      }
+      .options a:hover{ 
+        background-color: #A9DFBF;
+      }
+      #footer a:hover{
+        color: green;
+        font-weight: bold;
+      }
+      .tall{
+        max-height: 200px;
+      }
+      .wide{
+        max-width: 180px;
+      }
+      .options{
+        padding-bottom: 50px;
+      }
+      .card{
+        padding: 50px;
+        min-height: 170px;
+      }      
+      .title{
+        padding-bottom: 20px;
+      }
+      .logo{
+        padding-bottom: 10px;
+      }
+      #header{
+        padding-top: 30px;
+        padding-bottom: 50px;
+      }
+      #footer{
+        min-height: 50px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      #leap-img{
+        max-width: 85px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container" id="header">
+      <h1 class="text-center title">Welcome to Dartmouth's Sign Language App</h1>
+      <h6 class="text-center">This app uses Leap Motion hand-tracking software to help students learn and practice American Sign Language.</h6>
+      <h6 class="text-center">Please select one of the options below to get started!</h6>
+    </div>
+
+    <div class="container options">
+      <h3 class="title">Alphabet</h3>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a href="alphabet/alphabet.html" class="card"><p>Learn the alphabet (with images)</p></a>
+        </div>
+        <div class="col-md-4">
+          <a href="alphabet/select-letter.html" class="card"><p>Practice a letter of your choice (no images)</p></a>
+        </div>
+        <div class="col-md-4">
+          <a href="alphabet/random.html" class="card"><p>Random letter game (no images)</p></a>
+        </div>
+      </div>
+    </div>
+
+<!--     <div class="container options">
+      <h3 class="title">Words and Phrases</h3>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a href="#" class="card"><p>Learn select words and phrases</p></a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="card"><p>Practice a word or phrase of your choice</p></a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="card"><p>Practice a random word/phrase</p></a>
+        </div>
+      </div>
+    </div> 
+
+  -->
+
+    <footer id="footer">
+      <div class="container">
+        <ul class="list-inline list-unstyled text-center">
+          <li class="list-inline-item"><a href="https://gitlab.com/robertlivaudais/LeapSDK/tree/master/asl"><i class="logo fa fa-gitlab fa-3x"></i><p>Source Code</p></a></li>&nbsp;&nbsp;&nbsp;
+          <li class="list-inline-item"><a href="https://www.leapmotion.com/"><img class="logo img-responsive" id="leap-img" src="img/leap.png" alt="D image"><p>Leap Motion Home</p></a></li>&nbsp;&nbsp;&nbsp;
+          <li class="list-inline-item"><a href="http://www.lifeprint.com/"><i class="logo fa fa-american-sign-language-interpreting fa-3x" aria-hidden="true"></i><p>ASL Home</p></a></li>&nbsp;&nbsp;&nbsp;
+          <li class="list-inline-item"><a href="liveData.html"><i class="logo fa fa-code fa-3x" aria-hidden="true"></i><p>View Live Data</p></a></li>
+        </ul>
+        <p>Created by Robert Livaudais '19, Maggie Pizzo '19, Zack Johnson '20, Cara Van Uden '19</p>
+      </div> 
+    </footer> 
+  </body>
+</html>

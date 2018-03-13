@@ -1,0 +1,113 @@
+<!-- 
+Shows the data that we are taking from the Leap Motion in a live manner.
+Barebones taken from LeapJS's Sample.html
+
+Robert Livaudais, February 2018
+-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Live Data</title>
+<script src="http://js.leapmotion.com/leap-0.6.3.min.js"></script>
+<script>
+
+// Setup Leap loop with frame callback function
+var controllerOptions = {enableGestures: true};
+
+Leap.loop(controllerOptions, function(frame) {
+
+  // Display Frame object data
+  var frameOutput = document.getElementById("frameData");
+
+  var frameString = "Frame ID: " + frame.id  + "<br />"
+                  + "Hands: " + frame.hands.length + "<br />"
+                  + "Fingers: " + frame.fingers.length + "<br />";
+
+  frameOutput.innerHTML = "<div style='width:300px; float:left; padding:5px'>" + frameString + "</div>";
+
+  // Display Hand object data
+  var handOutput = document.getElementById("handData");
+  var handString = "";
+  if (frame.hands.length > 0) {
+    for (var i = 0; i < frame.hands.length; i++) {
+      var hand = frame.hands[i];
+
+      handString += "<div style='width:300px; float:left; padding:5px'>";
+      handString += "Hand ID: " + hand.id + "<br />";
+      handString += "Pitch: " + hand.pitch() + "<br />";
+      handString += "Roll: " + hand.roll() + "<br />";
+      handString += "Yaw: " + hand.yaw() + "<br />";
+
+      // get thumb angles
+      var thumb_bones = hand.thumb.bones;
+      handString += compute_angles(thumb_bones, handString, "Thumb");
+
+      // get index angles
+      var index_bones = hand.indexFinger.bones;
+      handString += compute_angles(index_bones, handString, "Index Finger");
+
+      // get middle angles
+      var middle_bones = hand.middleFinger.bones;
+      handString += compute_angles(middle_bones, handString, "Middle Finger");
+
+      // get ring angles
+      var ring_bones = hand.ringFinger.bones;
+      handString += compute_angles(ring_bones, handString, "Ring Finger");
+
+      // get pinky angles
+      var pinky_bones = hand.pinky.bones;
+      handString += compute_angles(pinky_bones, handString, "Pinky");
+
+      // get frog angles
+      handString += "Thumb to pointer: " + get_angle(thumb_bones[2].direction(), index_bones[2].direction()) + "<br />";
+      handString += "Pointer to middle: " + get_angle(index_bones[2].direction(), middle_bones[2].direction()) + "<br />";
+      handString += "Middle to ring: " + get_angle(middle_bones[2].direction(), ring_bones[2].direction()) + "<br />";
+      handString += "Ring to pinky: " + get_angle(ring_bones[2].direction(), pinky_bones[2].direction()) + "<br />";
+
+      handString += "</div>";
+    }
+  }
+  else {
+    handString += "No hands";
+  }
+  handOutput.innerHTML = handString;
+})
+
+function compute_angles(bones, handString, name){
+  var string = "";
+  for (var i = 0; i < bones.length - 1; i++){
+    var dir1 = bones[i].direction();
+    var dir2 = bones[i+1].direction();
+    var angle = get_angle(dir1, dir2);
+    if (name == "Thumb" && i == 0){
+      angle = 0.0;
+    }
+    string += name + " angle " + i + ": " + angle + "<br />";
+  }
+  return string;
+}
+
+function get_angle(dir1, dir2){
+  var dot = Leap.vec3.dot(dir1, dir2);
+  var angle = Math.acos(dot);
+  return angle;
+}
+
+</script>
+</head>
+<body>
+<h1>Live Data</h1>
+<p>Place one or two hands over the Leap Motion device to see the data that we are taking from the Leap Motion in a live manner.
+<div id="main">
+  <h3>Frame data:</h3>
+  <div id="frameData"></div>
+  <div style="clear:both;"></div>
+  <h3>Hand data:</h3>
+  <div id="handData"></div>
+  <div style="clear:both;"></div>
+</div>
+</body>
+</html>

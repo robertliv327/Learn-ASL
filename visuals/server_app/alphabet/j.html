@@ -1,0 +1,93 @@
+<!-- 
+HTML for Learning the Letter J
+
+Robert Livaudais, January 2018
+-->
+
+<html>
+  <head>
+    <title>Letter J</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        background: #07AD6A;
+      }
+      .leap-pic{
+        width: 60%;
+        height: auto;
+        padding-right: 20px; 
+      }
+      .online-pic{
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+      }
+      .test-area{
+        padding-top: 20px;
+      }
+      .img-hor {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+      }
+      #header{
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container" id="header">
+      <h1 class="text-center" id="test">Learn the Letter J</h1>
+      <p class="text-center">Place one hand over the Leap Motion Device to see it displayed on the screen.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive online-pic" src="../img/online_j.jpg" alt="Correct online letter J image">
+          <p class="text-center">Here's what the sign for the letter "J" looks like</p>
+        </div>
+        <div class="col-md-4">
+          <div>
+              <div class="text"></div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="text-center">Right hand</p>
+          <img class="img-responsive leap-pic" src="../img/leap_j_right.png" alt="Correct leap letter J image">
+          <p class="text-center">Left hand</p>
+          <img class="img-responsive leap-pic img-hor" src="../img/leap_j_right.png" alt="Correct leap letter J image">
+          <p class="text-center">Your hand should look like this on the screen.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center test-area">
+      <p>When you think your hand is placed correctly, press the '<b>SPACEBAR</b>' key to test for correctness.</p>
+    </div>
+
+    <script src = "https://js.leapmotion.com/leap-0.6.2.min.js" ></script>
+    <script src = "../lib/three.min.js"></script>
+    <script src = "../lib/stats.min.js"></script>
+    <script src = "../lib/ConnectedHand.js"></script>
+    <script src = "../js/common.js"></script>
+    <script src="../js/motion_main.js"></script> 
+  </body>
+</html>
